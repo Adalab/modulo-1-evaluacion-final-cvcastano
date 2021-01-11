@@ -26,15 +26,18 @@
         width: 76px;
         height: 45px;
         margin: 0 0 45px 15px;
-        padding: 0 25px 0 26px;
         border-radius: 22.5px;
         border: solid 2px $c;
+    
+        &--link {
+        padding: 15px 25px 15px 26px;
         font-family: $roboto;
         font-size: 20px;
         font-weight: 500;
         line-height: 2.25;
-        text-align: center;
         color: $c;
+        text-decoration: none;
+        }
+
     }
 }
-
