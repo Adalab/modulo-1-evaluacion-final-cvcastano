@@ -1,16 +1,19 @@
 .module2 {
+  padding: 30px 15px 45px;
+  @media all and (min-width: 768px) {
+    padding: 30px 39px 60px;
+  }
   @media all and (min-width: 1280px) {
     padding: 60px 275px;
   }
   &__minititle {
     font-family: $roboto;
+    font-weight: normal;
     font-size: 14px;
     line-height: 2.14;
     color: $light-blue;
-    margin: 30px 0 0 15px;
-    @media all and (min-width: 768px) {
-      margin-left: 39px;
-    }
+    margin-bottom: 1px;
+    text-transform: capitalize;
     @media all and (min-width: 1280px) {
       font-size: 16px;
       line-height: 1.88;
@@ -18,7 +21,7 @@
     }
   }
   &__title {
-    margin: 1px 15px 15px;
+    margin-bottom: 15px;
     font-family: $robotoSlab;
     font-size: 24px;
     font-weight: bold;
@@ -26,45 +29,39 @@
     color: $k;
     text-transform: capitalize;
     @media all and (min-width: 768px) {
-      margin: 0 39px 30px;
+      margin-bottom: 30px;
       font-size: 26px;
       line-height: 1.73;
     }
     @media all and (min-width: 1280px) {
-      margin: 0 0 30px;
       font-size: 32px;
       line-height: 1.41;
     }
   }
   &__text {
-    margin: 0 15px 30px;
+    margin-bottom: 30px;
     font-family: $roboto;
     font-size: 18px;
     line-height: 1.67;
     color: $greyish-brown;
     @media all and (min-width: 768px) {
-      margin: 0 39px 30px;
+      margin-bottom: 30px;
       font-size: 20px;
       line-height: 1.5;
-    }
-    @media all and (min-width: 1280px) {
-      margin: 0 0 30px;
     }
   }
   &__button {
     width: 76px;
     height: 45px;
-    margin: 0 0 45px 15px;
     border-radius: 22.5px;
     border: solid 2px $c;
     transition: all 0.5s ease;
+    box-shadow: 0 2px 4px 0 $k-50;
     @media all and (min-width: 768px) {
       width: 91px;
-      margin: 0 0 60px 39px;
     }
     @media all and (min-width: 1280px) {
       width: 160px;
-      margin: 0;
     }
 
     &:hover {
