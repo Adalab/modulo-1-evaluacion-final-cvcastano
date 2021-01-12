@@ -1,42 +1,52 @@
-.module2{
-    &__minititle {
+.module2 {
+  &__minititle {
     font-family: $roboto;
     font-size: 14px;
     line-height: 2.14;
     color: $light-blue;
     margin: 30px 0 0 15px;
   }
-    &__title {
-         margin: 1px 15px 15px;
-        font-family: $robotoSlab;
-        font-size: 24px;
-        font-weight: bold;
-        line-height: 1.25;
-        color: $k;
-        text-transform: capitalize;
-    }
-    &__text {
-        margin: 0 15px 30px;
-        font-family: $roboto;
-        font-size: 18px;
-        line-height: 1.67;
-        color: $greyish-brown;
-    }
-    &__button {
-        width: 76px;
-        height: 45px;
-        margin: 0 0 45px 15px;
-        border-radius: 22.5px;
-        border: solid 2px $c;
-    
-        &--link {
-        padding: 15px 25px 15px 26px;
-        font-family: $roboto;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 2.25;
-        color: $c;
-        }
+  &__title {
+    margin: 1px 15px 15px;
+    font-family: $robotoSlab;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: $k;
+    text-transform: capitalize;
+  }
+  &__text {
+    margin: 0 15px 30px;
+    font-family: $roboto;
+    font-size: 18px;
+    line-height: 1.67;
+    color: $greyish-brown;
+  }
+  &__button {
+    width: 76px;
+    height: 45px;
+    margin: 0 0 45px 15px;
+    border-radius: 22.5px;
+    border: solid 2px $c;
+    transition: all 0.3s ease;
 
+    &:hover {
+      background-color: $c;
+      transform: scale(1.2);
     }
+
+    &--link {
+      padding: 10px 25px;
+      font-family: $roboto;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 2.25;
+      color: $c;
+      transition: all 0.3 ease;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
 }

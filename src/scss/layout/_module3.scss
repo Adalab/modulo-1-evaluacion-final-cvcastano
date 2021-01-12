@@ -42,6 +42,12 @@
     border-radius: 22.5px;
     background-color: $c;
     margin: 0 auto;
+    transition: all 0.5s;
+
+    &:hover {
+      background-color: $dark-grey-blue;
+      transform: scale(1.1);
+    }
 
     &--link {
       font-family: Roboto;

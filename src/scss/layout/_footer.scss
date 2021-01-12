@@ -15,18 +15,17 @@
     text-transform: uppercase;
     color: $white;
     margin-bottom: 30px;
-  &--item {
-      
+    &--item {
       color: $white;
+    }
   }
-}
-  
-  &__small {
-      font-size: 14px;
-      line-height: 2.14;
 
-      &--icon {
-          color: $c;
-      }
+  &__small {
+    font-size: 14px;
+    line-height: 2.14;
+
+    &--icon {
+      color: $c;
+    }
   }
 }
