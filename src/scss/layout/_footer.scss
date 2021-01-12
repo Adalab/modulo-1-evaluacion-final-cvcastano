@@ -8,6 +8,13 @@
   align-items: center;
   text-align: center;
   padding: 60px 0 45px;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: left;
+    padding: 45px 39px 15px;
+  }
 
   &__nav {
     font-size: 16px;
@@ -15,14 +22,22 @@
     text-transform: uppercase;
     color: $white;
     margin-bottom: 30px;
+    @media all and (min-width: 768px) {
+      margin-left: 30px;
+      width: 210px;
+      }
+
     &--item {
       color: $white;
     }
   }
-
   &__small {
     font-size: 14px;
     line-height: 2.14;
+    @media all and (min-width: 768px) {
+      order: -1;
+      width: 210px;
+    }
 
     &--icon {
       color: $c;
