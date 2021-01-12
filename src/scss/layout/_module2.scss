@@ -5,6 +5,9 @@
     line-height: 2.14;
     color: $light-blue;
     margin: 30px 0 0 15px;
+    @media all and (min-width: 768px) {
+      margin-left: 39px;
+    }
   }
   &__title {
     margin: 1px 15px 15px;
@@ -14,6 +17,11 @@
     line-height: 1.25;
     color: $k;
     text-transform: capitalize;
+    @media all and (min-width: 768px) {
+      margin: 0 39px 30px;
+      font-size: 26px;
+      line-height: 1.73;
+    }
   }
   &__text {
     margin: 0 15px 30px;
@@ -21,6 +29,11 @@
     font-size: 18px;
     line-height: 1.67;
     color: $greyish-brown;
+    @media all and (min-width: 768px) {
+      margin: 0 39px 30px;
+      font-size: 20px;
+      line-height: 1.5;
+    }
   }
   &__button {
     width: 76px;
@@ -29,6 +42,9 @@
     border-radius: 22.5px;
     border: solid 2px $c;
     transition: all 0.3s ease;
+    @media all and (min-width: 768px) {
+      margin: 0 0 60px 39px;
+    }
 
     &:hover {
       background-color: $c;
