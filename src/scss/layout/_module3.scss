@@ -1,4 +1,57 @@
 .module3 {
-    background-color: $ice-blue;
-    
+  background-color: $ice-blue;
+  color: $k;
+  text-align: center;
+  padding: 30px 0 38px;
+
+  &__title {
+    margin: 0 15px 45px;
+    font-family: $robotoSlab;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.25;
+    text-transform: capitalize;
+  }
+
+  &__articles {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0 70px 0;
+  }
+
+  &__article {
+    font-size: 18px;
+    line-height: 1.67;
+    margin-bottom: 45px;
+
+    &--title {
+      font-family: RobotoSlab;
+      font-weight: bold;
+    }
+    &--text {
+      margin: 0 70px 45;
+      font-family: $roboto;
+    }
+  }
+
+  &__button {
+    text-align: center;
+    color: $white;
+    width: 184px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: $c;
+    margin: 0 auto;
+
+    &--link {
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 2.25;
+      text-align: center;
+      color: $white;
+      padding: 30.5px 15px 29.5px;
+      text-decoration: none;
+    }
+  }
 }
