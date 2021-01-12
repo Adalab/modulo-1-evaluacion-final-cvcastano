@@ -23,9 +23,15 @@
     font-size: 42px;
     line-height: 1.31;
     text-align: center;
+    font-weight: bold;
     @media all and (min-width: 768px) {
       font-size: 80px;
       line-height: 1.33;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 100px;
+      line-height: 1.32;
+      text-shadow: 0 2px 5px $k-50;
     }
   }
 
@@ -40,6 +46,9 @@
       font-size: 24px;
       margin-top: 20px;
     }
+    @media all and (min-width: 1220px) {
+      margin-top: 0;
+    }
   }
 
   &__scroll {
@@ -52,6 +61,9 @@
     bottom: 9.33vh;
     @media all and (min-width: 768px) {
       bottom: 5.85vh;
+    }
+    @media all and (min-width: 1220px) {
+      bottom: 1.69vh;
     }
   }
   &__scroll--icon {
