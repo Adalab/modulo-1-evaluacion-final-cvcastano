@@ -12,11 +12,15 @@
   &__nav {
     font-size: 16px;
     line-height: 1.88;
-    list-style: none;
     text-transform: uppercase;
     color: $white;
     margin-bottom: 30px;
+  &--item {
+      
+      color: $white;
   }
+}
+  
   &__small {
       font-size: 14px;
       line-height: 2.14;
