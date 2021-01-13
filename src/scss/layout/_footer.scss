@@ -30,6 +30,10 @@
     &--item {
       color: $white;
     }
+    &--item:hover {
+      color: $ice-blue;
+      text-shadow: 1px 1px 1px $c;
+    }
   }
   &__small {
     font-size: 14px;
