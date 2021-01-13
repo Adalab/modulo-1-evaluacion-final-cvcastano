@@ -3,6 +3,9 @@
   color: $k;
   text-align: center;
   padding: 30px 15px 20px;
+  @media all and (min-width: 768px) {
+    padding: 30px 35px 20px;
+  }
 
   @media all and (min-width: 1280px) {
     padding: 60px 81px;
@@ -34,9 +37,12 @@
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 30px;
       grid-template-rows: 1fr;
+      margin: 0;
     }
   }
-
+.item1 {
+  grid-row: 1/2;
+}
   &__article {
     line-height: 1.67;
     margin-bottom: 45px;
@@ -47,7 +53,7 @@
     }
 
     &--title {
-      font-family: RobotoSlab;
+      font-family: $robotoSlab;
       font-weight: bold;
       @media all and (min-width: 768px) {
         font-size: 24px;
@@ -97,6 +103,7 @@
       }
       @media all and (min-width: 1280px) {
         padding: 15px 62px;
+        text-transform: capitalize;
       }
     }
   }
