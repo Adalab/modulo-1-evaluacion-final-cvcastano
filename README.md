@@ -1,7 +1,6 @@
+![](https://github.com/Adalab/modulo-1-evaluacion-final-cvcastano/blob/master/src/images/beating-heart.gif)        
 # ANONYMOUS PROXY 
-## FINAL EVALUATION OF THE FIRST MODULE IN ADALAB
-
-   ![](https://github.com/Adalab/modulo-1-evaluacion-final-cvcastano/blob/master/src/images/beating-heart.gif)     
+## FINAL EVALUATION OF THE FIRST MODULE IN ADALAB 
         
 ---   
 Exercise performed during the final evaluation of the first module of the web development course in Adalab. 
