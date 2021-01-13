@@ -3,7 +3,6 @@
 ## FINAL EVALUATION OF THE FIRST MODULE IN ADALAB 
         
 ---   
-Exercise performed during the final evaluation of the first module of the web development course in Adalab. 
 The exercise consisted in developing a website according to a given design. It was necessary to:
 Use Sass.
 Use flexbox and CSS Grid.
