@@ -6,11 +6,9 @@
   @media all and (min-width: 768px) {
     padding: 30px 35px 20px;
   }
-
   @media all and (min-width: 1280px) {
     padding: 60px 81px 15px;
   }
-
   &__title {
     margin-bottom: 45px;
     font-family: $robotoSlab;
@@ -27,7 +25,6 @@
       line-height: 1.41;
     }
   }
-
   &__articles {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -40,8 +37,7 @@
       grid-template-rows: 1fr;
       margin: 0;
     }
-  
-}
+  }
   &__article {
     line-height: 1.67;
     @media all and (min-width: 768px) {
@@ -49,7 +45,6 @@
       line-height: 1.5;
       margin-bottom: 60px;
     }
-
     &--title {
       font-family: $robotoSlab;
       font-weight: bold;
@@ -59,13 +54,11 @@
       }
     }
     &--text {
-      font-family: $roboto;
       @media all and (min-width: 768px) {
         margin-top: 14px;
       }
     }
   }
-
   &__button {
     text-align: center;
     color: $white;
@@ -82,14 +75,11 @@
     @media all and (min-width: 1280px) {
       width: 255px;
     }
-
     &:hover {
       background-color: $dark-grey-blue;
       transform: scale(1.1);
     }
-
     &--link {
-      font-family: Roboto;
       font-size: 20px;
       font-weight: 500;
       line-height: 2.25;
@@ -129,4 +119,3 @@
     transform: rotate(360deg);
   }
 }
-

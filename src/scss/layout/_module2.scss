@@ -9,7 +9,6 @@
     padding: 60px 275px;
   }
   &__minititle {
-    font-family: $roboto;
     font-weight: normal;
     font-size: 14px;
     line-height: 2.14;
@@ -42,7 +41,6 @@
   }
   &__text {
     margin-bottom: 30px;
-    font-family: $roboto;
     font-size: 18px;
     line-height: 1.67;
     color: $greyish-brown;
@@ -65,15 +63,12 @@
     @media all and (min-width: 1280px) {
       width: 160px;
     }
-
     &:hover {
       background-color: $c;
       transform: scale(1.2);
     }
-
     &--link {
       padding: 10px 25px;
-      font-family: $roboto;
       font-size: 20px;
       font-weight: 500;
       line-height: 2.25;
@@ -85,7 +80,6 @@
       @media all and (min-width: 1280px) {
         padding: 10px 67px;
       }
-
       &:hover {
         color: white;
       }
