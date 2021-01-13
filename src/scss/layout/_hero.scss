@@ -14,8 +14,8 @@
     background-color: $hamburger;
     padding: 15px 14px;
     position: fixed;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
   }
 
   &__title {
@@ -27,7 +27,8 @@
     line-height: 1.31;
     text-align: center;
     font-weight: bold;
-    padding: 0 15px 10px; 
+    padding: 0 15px 10px;
+    animation: intro 4s ease 1;
     @media all and (min-width: 768px) {
       font-size: 80px;
       line-height: 1.33;
@@ -38,7 +39,16 @@
       text-shadow: 0 2px 5px $k-50;
     }
   }
-
+  @keyframes intro {
+    from {
+      opacity: 0;
+      transform: translateY(40vh);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(50vh);
+    }
+  }
   &__text {
     transform: translateY(50vh);
     font-family: $roboto;
@@ -72,6 +82,4 @@
       bottom: 1.69vh;
     }
   }
-
 }
-
