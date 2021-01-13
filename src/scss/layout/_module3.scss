@@ -8,7 +8,7 @@
   }
 
   @media all and (min-width: 1280px) {
-    padding: 60px 81px;
+    padding: 60px 81px 15px;
   }
 
   &__title {
@@ -113,14 +113,11 @@
     padding: 11px;
     box-shadow: 0 2px 4px 0 $k-50;
     position: relative;
-    top: 40px;
+    top: 45px;
     margin-left: auto;
     margin-right: auto;
     &--arrow {
       animation: rotate 2.5s ease infinite;
-    }
-    @media all and (min-width: 1280px) {
-      top: 80px;
     }
   }
 }
