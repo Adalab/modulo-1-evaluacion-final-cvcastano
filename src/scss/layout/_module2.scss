@@ -1,4 +1,7 @@
 .module2 {
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
   padding: 30px 15px 45px;
   @media all and (min-width: 768px) {
     padding: 30px 39px 60px;
